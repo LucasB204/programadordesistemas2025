@@ -1,0 +1,47 @@
+.navegacao{
+   /* background-color: rgb(35, 245, 245) !important; */
+   background: linear-gradient(to right, #000000, rgb(36, 102, 243));
+}
+
+.menu{
+    background-color: rgb(5, 5, 5);
+    /* o menu pega toda a altura da tela*/
+    height: 100vh;
+    list-style: none;
+}
+
+.menu-item{
+    color: white;
+    padding: 8px 0px;
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.menu-item:hover{
+    color: orange;
+}
+
+.fundoLogin{
+    background-color: rgb(55, 104, 194);
+    display: flex;
+}
+
+.painel{
+    background-color: rgba(255, 255, 255, 0.623);
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 15px;
+    z-index: 2;
+}
+.cabecalho{
+    color: rgb(55, 104, 194);
+    text-align: center;
+    font-size: 40px;
+}
+.botao:hover{
+    background-color: red !important;
+    border: red;
+}
